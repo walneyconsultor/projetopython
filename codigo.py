@@ -16,4 +16,9 @@ print("O custo foi de ", custo)
 print("O lucro foi de ", round (lucro, 2))
 print("A margem de lucro foi de ", round (marge_lucro, 2))
 
-teve_lucro = lucro > 0 # tipo: bool -> booleano 
+teve_lucro = true # tipo: bool -> booleano
+
+
+tempo_contrato = 170
+tempo_anos = 170 / 12
+print("tempo em anos: ", int(tempo_anos))
